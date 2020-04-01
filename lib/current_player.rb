@@ -11,7 +11,11 @@ def turn_count(board)
   return count
 end
 
-board1 = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
-board2 = ["O", " ", " ", " ", "X", " ", " ", "O", "X"]
-
-turn_count(board1)
+def current_player(board)
+  turns = turn_count(board)
+  if turns % 2 == 0
+    "X"
+  else
+    "O"
+  end
+end
