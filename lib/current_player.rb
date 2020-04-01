@@ -6,6 +6,7 @@ def turn_count(board)
     else
       count += 1
     end
+  puts "#{count}"
 end
 
 board = ["", "", "X", "", "O"]
