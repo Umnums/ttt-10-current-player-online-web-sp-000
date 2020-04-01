@@ -8,6 +8,7 @@ def turn_count(board)
     end
   end
   puts "#{count}"
+  return count
 end
 
 board1 = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
