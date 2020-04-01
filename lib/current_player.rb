@@ -10,6 +10,7 @@ def turn_count(board)
   puts "#{count}"
 end
 
-board = ["", "", "X", "", "O"]
+board1 = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
+board2 = ["O", " ", " ", " ", "X", " ", " ", "O", "X"]
 
-turn_count(board)
+turn_count(board1)
