@@ -1,6 +1,6 @@
 def turn_count(board)
   count = 0
-  board.each |pos| do
+  board.each do |pos| 
     if (pos == "" || pos == " " || pos == nil)
 
     else
